@@ -40,13 +40,14 @@ const App = () => {
   }
 
   const filterFood = (type) => {
-     if (type === "all") {
+    if (type === "all") {
       setFilteredData(data);
       setSelectedButton('all');
-     }
-     const filter = data?.filter((food) => food.type.toLowerCase() === type.toLowerCase());
+    } else {
+      const filter = data?.filter((food) => food.type.toLowerCase() === type.toLowerCase());
       setFilteredData(filter);
       setSelectedButton(type);
+    }
   }
 
   const filterButtons = [
