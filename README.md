@@ -8,7 +8,7 @@ Displays a list of food items with images and descriptions
 - Fast and intuitive user experience
 
 # Clone the repository
-git clone https://github.com/yourusername/food-filter-app.git
+git clone https://github.com/bhumikaAgalcha/food-filter-app.git
 
 # Navigate into the project folder
 cd food-filter-app
